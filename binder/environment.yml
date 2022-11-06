@@ -8,5 +8,6 @@ dependencies:
   - pyarrow
   - ipykernel
   - dask-labextension==6.0
+  - pip
   - pip:
     - git+https://github.com/dask/distributed@main
