@@ -7,3 +7,6 @@ dependencies:
   - coiled
   - pyarrow
   - ipykernel
+  - dask-labextension==6.0
+  - pip:
+    - git+https://github.com/dask/distributed@main
