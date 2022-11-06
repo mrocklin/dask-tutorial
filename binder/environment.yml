@@ -1,0 +1,9 @@
+name: dask-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python==3.10
+  - dask
+  - coiled
+  - pyarrow
+  - ipykernel
