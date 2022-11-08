@@ -9,6 +9,7 @@ dependencies:
   - ipykernel
   - dask-labextension==6.0
   - datashader
+  - holoviews
   - s3fs
   - pip
   - pip:
