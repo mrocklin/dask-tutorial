@@ -8,9 +8,9 @@ dependencies:
   - pyarrow
   - ipykernel
   - dask-labextension==6.0
+  - jupyterlab
   - datashader
   - s3fs
   - holoviews
+  - hvplot
   - pip
-  - pip:
-    - git+https://github.com/dask/distributed@main

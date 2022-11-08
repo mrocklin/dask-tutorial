@@ -33,7 +33,7 @@ We have two options for you to follow this tutorial:
         In your terminal navigate to the directory where you have cloned/downloaded the `dask-tutorial` repository and install the required packages:
 
         ```
-        conda env create -f local.yml
+        conda env create -f binder/environment.yml
         ```
 
         This will create a new environment called `dask-tutorial`. To activate the environment do:
