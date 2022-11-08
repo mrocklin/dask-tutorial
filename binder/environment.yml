@@ -10,6 +10,7 @@ dependencies:
   - dask-labextension==6.0
   - datashader
   - s3fs
+  - holoviews
   - pip
   - pip:
     - git+https://github.com/dask/distributed@main
