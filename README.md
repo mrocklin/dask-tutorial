@@ -25,6 +25,7 @@ We have two options for you to follow this tutorial:
 
         ```
         git clone https://github.com/mrocklin/dask-tutorial
+        cd dask-tutorial
         ```
         Alternatively, you can download the zip file of the repository at the top of the main page of the repository. This is a good option if you don't have experience with git.
 
