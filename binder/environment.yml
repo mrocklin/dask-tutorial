@@ -14,3 +14,5 @@ dependencies:
   - holoviews
   - hvplot
   - pip
+  - pip:
+    - git+https://github.com/mrocklin/distributed@pydata-nyc-2022
