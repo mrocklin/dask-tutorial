@@ -39,6 +39,12 @@ If you are joining for a live session please make sure you do the setup in advan
     conda activate dask-tutorial
     ```
 
+    Alternatively, you can install the required packages using `pip`:
+
+    ```
+    pip install -r requirements.txt
+    ```
+
 4. **Open Jupyter Lab**
 
     Once your environment has been activated and you are in the `dask-tutorial` repository, in your terminal do:
