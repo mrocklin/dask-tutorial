@@ -13,6 +13,7 @@ dependencies:
   - s3fs
   - holoviews
   - hvplot
+  - python-graphviz
   - pip
   - pip:
     - git+https://github.com/mrocklin/distributed@pydata-nyc-2022
