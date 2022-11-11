@@ -1,0 +1,12 @@
+dask
+coiled
+pyarrow
+ipykernel
+dask-labextension==6.0
+jupyterlab
+datashader
+s3fs
+holoviews
+hvplot
+graphviz
+git+https://github.com/mrocklin/distributed@pydata-nyc-2022
