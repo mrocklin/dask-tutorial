@@ -1,9 +1,10 @@
-name: dask-tutorial
+name: dask-tutorial-panel
 channels:
   - conda-forge
 dependencies:
   - python==3.10
-  - dask
+  - dask==2022.12.0
+  - distributed==2022.12.0
   - coiled
   - pyarrow
   - ipykernel
@@ -14,6 +15,5 @@ dependencies:
   - holoviews
   - hvplot
   - python-graphviz
-  - pip
   - pip:
-    - git+https://github.com/mrocklin/distributed@pydata-nyc-2022
+     - panel
