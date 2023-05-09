@@ -8,4 +8,7 @@ export DASK_DISTRIBUTED__DASHBOARD__LINK="${JUPYTERHUB_SERVICE_PREFIX}proxy/{por
 # Import the workspace
 jupyter lab workspaces import binder/jupyterlab-workspace.json
 
+# Install Coiled token
+coiled login --token 65924ef194cc4b658ff37c1c11caa357-2ad71e4ceeafd5a771f553306cff95eb9624ee2d --account dask-tutorials
+
 exec "$@"
