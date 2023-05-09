@@ -59,6 +59,11 @@ We have two options for you to follow this tutorial:
         `dask-tutorials` team, which is connected to an AWS account of ours.
 
         To get this access, ask to be added in the #dask-tutorial channel.
+        You'll also want to set your default account to `dask-tutorials`:
+
+        ```
+        coiled config set account dask-tutorials
+        ```
 
         Alternatively, you can also ...
 
