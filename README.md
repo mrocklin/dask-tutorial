@@ -40,7 +40,7 @@ We have two options for you to follow this tutorial:
 
     Alternatively, you can run `pip install -r requirements.txt`.
     This may or may not work as well.
-    We recommened doing this from a fresh Python environment (this will make
+    We recommend doing this from a fresh Python environment (this will make
     synchronizing with your cluster easier).
 
 3. **Establish Coiled Access**
