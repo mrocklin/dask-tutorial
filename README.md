@@ -9,10 +9,6 @@ Additionally you will work on real large scale data using a cluster of machines 
 
 ## Set up
 
-We have two options for you to follow this tutorial:
-
-### Run locally
-
 1. **Clone this repository**
 
     In your terminal:
@@ -76,7 +72,7 @@ We have two options for you to follow this tutorial:
         This should just work, but will expire in a few days and you won't be
         able to access the web view.
 
-3. **Open Jupyter Lab**
+4. **Open Jupyter Lab**
 
     Once your environment has been activated and you are in the `dask-tutorial` repository, start Jupyter Lab:
 
@@ -89,9 +85,11 @@ We have two options for you to follow this tutorial:
     *We recommend Jupyter Lab due to the [Dask Jupyter extension](https://github.com/dask/dask-labextension).*
 
 
-### Run on a cloud notebook
+### Run on mybinder.org
 
-Click on this button → [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mrocklin/dask-tutorial/HEAD) to run in a pre-configured cloud environment.
+The website [mybinder.org](https://mybinder.org) serves pre-configured Jupyter notebooks for
+free that you can also use.  Here is the link → [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mrocklin/dask-tutorial/HEAD).
 
-If you are joining the live session, please click on the button few minutes before we start so we are ready to go.
-
+However, mybinder.org has tragically lost some of their funding recently, and
+so availability is not what it once was.  We recommend running locally if
+possible.

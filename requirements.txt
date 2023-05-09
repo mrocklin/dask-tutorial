@@ -1,0 +1,7 @@
+  - dask[complete]
+  - coiled
+  - pyarrow
+  - ipykernel
+  - dask-labextension==6.0
+  - jupyterlab
+  - s3fs
