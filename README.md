@@ -48,13 +48,19 @@ We have two options for you to follow this tutorial:
     This tutorial will use Dask clusters on the cloud.  We will get these
     clusters using a SaaS product, Coiled.  You can either ...
 
-    1.  Sign up (it's free and there's not commitment) as follows:
+    1.  Sign up (it's free and there's no commitment) as follows:
 
         ```
         coiled login
         ```
 
-        You'll be able to see more stuff this way, but you don't need to.
+        You'll be asked to authenticate with GitHub to make an account.  Don't
+        worry about connecting to your cloud resources.  We'll add you to the
+        `dask-tutorials` team, which is connected to an AWS account of ours.
+
+        To get this access, ask to be added in the #dask-tutorial channel.
+
+        Alternatively, you can also ...
 
     2.  Use a short-lived auth token
 
