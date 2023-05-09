@@ -7,13 +7,6 @@ dependencies:
   - coiled
   - pyarrow
   - ipykernel
-  - dask-labextension==6.0
+  - dask-labextension
   - jupyterlab
-  - datashader
   - s3fs
-  - holoviews
-  - hvplot
-  - python-graphviz
-  - pip
-  - pip:
-    - git+https://github.com/mrocklin/distributed@pydata-nyc-2022
