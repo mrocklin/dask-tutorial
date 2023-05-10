@@ -84,6 +84,48 @@ Additionally you will work on real large scale data using a cluster of machines 
 
     *We recommend Jupyter Lab due to the [Dask Jupyter extension](https://github.com/dask/dask-labextension).*
 
+### Run on a Coiled notebook
+
+1. **Setup virtual environment**
+    ```
+    conda create -n dask-tutorial python=3.10 coiled jupyter
+    ```
+
+2. **Establish Coiled Access**
+    1.  Sign up (it's free and there's no commitment) as follows:
+
+        ```
+        coiled login
+        ```
+
+        You'll be asked to authenticate with GitHub to make an account.  Don't
+        worry about connecting to your cloud resources.  We'll add you to the
+        `dask-tutorials` team, which is connected to an AWS account of ours.
+
+        To get this access, ask to be added in the #dask-tutorial channel.
+        You'll also want to set your default account to `dask-tutorials`:
+
+        ```
+        coiled config set account dask-tutorials
+        ```
+
+        Alternatively, you can also ...
+
+    2.  Use a short-lived auth token
+
+        ```
+        coiled login --token 65924ef194cc4b658ff37c1c11caa357-2ad71e4ceeafd5a771f553306cff95eb9624ee2d --account dask-tutorials
+        ```
+
+        This should just work, but will expire in a few days and you won't be
+        able to access the web view.
+
+3. **Start Coiled notebook**
+    ```
+    coiled notebook up --software jupytercon-notebook
+    ```
+
+    **Note:** Don't forget to shut down your notebook after you're done!
 
 ### Run on mybinder.org
 
