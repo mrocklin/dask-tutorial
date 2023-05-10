@@ -89,6 +89,7 @@ Additionally you will work on real large scale data using a cluster of machines 
 1. **Setup virtual environment**
     ```
     conda create -n dask-tutorial python=3.10 coiled jupyter
+    conda activate dask-tutorial
     ```
 
 2. **Establish Coiled Access**
